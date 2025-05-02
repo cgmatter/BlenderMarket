@@ -1,0 +1,7 @@
+<script>
+  for (let i = 1; i <= 64; i++) {
+    const num = String(i).padStart(4, '0');
+    const url = `https://raw.githubusercontent.com/cgmatter/BlenderMarket/refs/heads/main/sequence_${num}.jpg`;
+    document.write(`<img src="${url}" alt="Frame ${num}" style="width: 100%; max-width: 600px; display: block; margin-bottom: 10px;">`);
+  }
+</script>
